@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+button {
+  background-color: #ef7502;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  margin: 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+  gap: 500px;
+}
+button:hover {
+  background-color: #16db3d;
+}
+#counter-value {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+  min-width: 60px;
+}
+body{
+  background-color: rgba(148, 148, 140, 0.364);
+}
