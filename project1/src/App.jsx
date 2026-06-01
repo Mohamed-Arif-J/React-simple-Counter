@@ -1,8 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0);
+  useEffect(()=>{
+    console.log('incrementor')
+  },[count])
   return (
     <div className='wrapper'>
       <h1 className='counter-value'>{count}</h1>
